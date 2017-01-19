@@ -22,20 +22,22 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:text="@string/MenuBtnRecomendaciones"
+        android:text="@string/MenuBtnCallCenter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/button3"
         android:layout_above="@+id/button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="@string/MenuBtnCallCenter"
+        android:text="Perfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:layout_above="@+id/button2"
+        android:id="@+id/MenuBtnPerfil"
+        android:layout_above="@+id/button3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
