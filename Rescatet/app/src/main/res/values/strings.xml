@@ -3,4 +3,7 @@
     <string name="LogBtnText">Iniciar Sesión</string>
     <string name="LogTxtUser">Ingresa tu usuario</string>
     <string name="LogTextPass">Ingresa tu contraseña</string>
+    <string name="MenuBtnEmergencia">Emergencia</string>
+    <string name="MenuBtnRecomendaciones">Recomendaciones</string>
+    <string name="MenuBtnCallCenter">Llamar a Call Center</string>
 </resources>
