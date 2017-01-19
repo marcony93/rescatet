@@ -10,8 +10,66 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.marconymeza.rescatet.LoginActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:text="@string/LogBtnText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/LoginBtnInicioSecion"
+        android:layout_below="@+id/LoginTxtPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="14dp"
+        android:id="@+id/LoginTxtUser"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/LoginTxtPass"
+        android:layout_alignStart="@+id/LoginTxtPass" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="19dp"
+        android:id="@+id/LoginTxtPass"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:text="@string/LogTxtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/LoginTxtUser"
+        android:layout_alignStart="@+id/LoginTxtUser" />
+
+    <TextView
+        android:text="@string/LogTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/LoginTxtUser"
+        android:layout_alignLeft="@+id/LoginTxtPass"
+        android:layout_alignStart="@+id/LoginTxtPass" />
+
+    <TextView
+        android:text="Inicio de Sesión"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/textView3"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
 </RelativeLayout>
